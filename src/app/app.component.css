@@ -4,3 +4,5 @@ nav {
 .navbar-nav{
     color: black;
 }
+.btn-light {font-weight: bold; border-radius: 24px;}
+.btn-dark {font-weight: bold; border-radius: 24px;}
