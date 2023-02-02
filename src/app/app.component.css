@@ -4,8 +4,8 @@ nav {
 .navbar-nav{
     color: black;
 }
-navbar-nav li{
-    margin: 7px;
+.navbar-brand{
+    margin-left: 125px; 
 }
 .btn-light {font-weight: bold; 
     border-radius: 24px;
