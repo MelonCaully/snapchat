@@ -3,6 +3,8 @@ nav {
 }
 .navbar-nav{
     color: black;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 .navbar-brand{
     margin-left: 125px; 
