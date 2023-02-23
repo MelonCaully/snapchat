@@ -7,6 +7,7 @@ import { FooternavComponent } from './footernav/footernav.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BodyComponent } from './body/body.component';
 import { SocialFooterComponent } from './social-footer/social-footer.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SocialFooterComponent } from './social-footer/social-footer.component';
     FooternavComponent,
     NavbarComponent,
     BodyComponent,
-    SocialFooterComponent
+    SocialFooterComponent,
+    HomepageComponent
   ],
   imports: [
     BrowserModule,
