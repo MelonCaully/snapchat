@@ -1,0 +1,36 @@
+.container{
+    width: 70%;
+    height: 100;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: static;
+    bottom: 35pt;
+    margin-top: 1px;
+}
+
+.text-reset{
+    display: table;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -14px;
+    font-size: 14px;
+}
+.form-control{
+    width: 200px;
+    height: 34px;
+    padding: 5px 10px;
+    appearance: none;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    background: white;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+}
+.sticky{
+    background-color: white;
+    height: 300px;
+}
