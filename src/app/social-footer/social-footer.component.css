@@ -1,8 +1,12 @@
 .heading{
     padding: 6px;
     justify-content: center;
+    width: 1200px;
 }
 .Links{
     text-decoration: underline;
     font-weight: bold;
+}
+.container{
+    height: 50px;
 }

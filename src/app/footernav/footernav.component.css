@@ -1,13 +1,9 @@
 .container{
-    width: 70%;
-    height: 100;
+    width: 80%;
     background-image: none;
-    background-repeat: repeat;
-    background-attachment: scroll;
-    background-position: 0% 0%;
     position: static;
-    bottom: 35pt;
-    margin-top: 1px;
+    margin-top: 20px;
+    background-color: white;
 }
 
 .text-reset{
