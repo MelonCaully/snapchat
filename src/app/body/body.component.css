@@ -14,6 +14,7 @@ h1{
     position: relative;
     left: 117px;
     top: 80px;
+    color: black;
 }
 p{
     font-size: 25px;
@@ -21,6 +22,7 @@ p{
     position: relative;
     left: 117px;
     top: 80px;
+    color: black;
 }
 .btn-dark{
     font-weight: bold; 
@@ -29,4 +31,9 @@ p{
     left: 117px;
     top: 80px;
     background-color: black;
+    height: 50px;
+    width: 225px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
 }
