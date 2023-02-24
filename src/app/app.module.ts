@@ -7,8 +7,9 @@ import { FooternavComponent } from './footernav/footernav.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BodyComponent } from './body/body.component';
 import { SocialFooterComponent } from './social-footer/social-footer.component';
-import { LayoutComponent } from './home-page/layout/layout.component';
-import { HomeLayoutComponent } from './Layout/home-layout/home-layout/home-layout.component';
+import { HomeLayoutComponent } from './Layout/home-layout/home-layout.component';
+import { SecondLayoutComponent } from './Layout/second-layout/second-layout.component';
+import { ThirdLayoutComponent } from './Layout/third-layout/third-layout.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +18,9 @@ import { HomeLayoutComponent } from './Layout/home-layout/home-layout/home-layou
     NavbarComponent,
     BodyComponent,
     SocialFooterComponent,
-    LayoutComponent,
     HomeLayoutComponent,
+    SecondLayoutComponent,
+    ThirdLayoutComponent,
   ],
   imports: [
     BrowserModule,
