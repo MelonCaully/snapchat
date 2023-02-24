@@ -10,6 +10,8 @@ import { SocialFooterComponent } from './social-footer/social-footer.component';
 import { HomeLayoutComponent } from './Layout/home-layout/home-layout.component';
 import { SecondLayoutComponent } from './Layout/second-layout/second-layout.component';
 import { ThirdLayoutComponent } from './Layout/third-layout/third-layout.component';
+import { SecondLayoutSocialFooterComponent } from './second-layout-social-footer/second-layout-social-footer.component';
+import { LogInFormComponent } from './log-in-form/log-in-form.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { ThirdLayoutComponent } from './Layout/third-layout/third-layout.compone
     HomeLayoutComponent,
     SecondLayoutComponent,
     ThirdLayoutComponent,
+    SecondLayoutSocialFooterComponent,
+    LogInFormComponent,
   ],
   imports: [
     BrowserModule,

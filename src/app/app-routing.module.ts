@@ -9,8 +9,8 @@ const routes: Routes = [
     component: HomeLayoutComponent
   },
   {
-    path: '',
-    component: SecondLayoutComponent,
+    path: 'SecondLayout',
+    component: SecondLayoutComponent
   },
 ];
 
