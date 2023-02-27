@@ -12,6 +12,8 @@ import { SecondLayoutComponent } from './Layout/second-layout/second-layout.comp
 import { ThirdLayoutComponent } from './Layout/third-layout/third-layout.component';
 import { SecondLayoutSocialFooterComponent } from './second-layout-social-footer/second-layout-social-footer.component';
 import { LogInFormComponent } from './log-in-form/log-in-form.component';
+import { FirstLayoutComponent } from './Layout/first-layout/first-layout.component';
+import { FourthLayoutComponent } from './Layout/fourth-layout/fourth-layout.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { LogInFormComponent } from './log-in-form/log-in-form.component';
     ThirdLayoutComponent,
     SecondLayoutSocialFooterComponent,
     LogInFormComponent,
+    FirstLayoutComponent,
+    FourthLayoutComponent,
   ],
   imports: [
     BrowserModule,
