@@ -18,6 +18,7 @@ import { Body2Component } from './body2/body2.component';
 import { Navbar2Component } from './navbar2/navbar2.component';
 import { Navbar3Component } from './navbar3/navbar3.component';
 import { Body3Component } from './body3/body3.component';
+import { Body4Component } from './body4/body4.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { Body3Component } from './body3/body3.component';
     Navbar2Component,
     Navbar3Component,
     Body3Component,
+    Body4Component,
   ],
   imports: [
     BrowserModule,
