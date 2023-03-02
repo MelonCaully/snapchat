@@ -17,6 +17,7 @@ import { FourthLayoutComponent } from './Layout/fourth-layout/fourth-layout.comp
 import { Body2Component } from './body2/body2.component';
 import { Navbar2Component } from './navbar2/navbar2.component';
 import { Navbar3Component } from './navbar3/navbar3.component';
+import { Body3Component } from './body3/body3.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { Navbar3Component } from './navbar3/navbar3.component';
     Body2Component,
     Navbar2Component,
     Navbar3Component,
+    Body3Component,
   ],
   imports: [
     BrowserModule,
