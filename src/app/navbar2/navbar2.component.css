@@ -2,9 +2,9 @@ nav {
     height: 75px;
 }
 .navbar-nav{
-    color: black;
-    margin-left: 16px;
-    margin-right: 16px;
+    color: #000000;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .navbar-brand{
     margin-left: 25px; 

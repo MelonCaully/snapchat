@@ -15,6 +15,7 @@ import { LogInFormComponent } from './log-in-form/log-in-form.component';
 import { FirstLayoutComponent } from './Layout/first-layout/first-layout.component';
 import { FourthLayoutComponent } from './Layout/fourth-layout/fourth-layout.component';
 import { Body2Component } from './body2/body2.component';
+import { Navbar2Component } from './navbar2/navbar2.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { Body2Component } from './body2/body2.component';
     FirstLayoutComponent,
     FourthLayoutComponent,
     Body2Component,
+    Navbar2Component,
   ],
   imports: [
     BrowserModule,
