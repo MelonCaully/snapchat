@@ -53,3 +53,14 @@ nav {
     text-decoration: none;
     background-color: black;
 }
+.dropdown{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
