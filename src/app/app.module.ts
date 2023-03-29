@@ -19,32 +19,34 @@ import { Navbar2Component } from './navbar2/navbar2.component';
 import { Navbar3Component } from './navbar3/navbar3.component';
 import { Body3Component } from './body3/body3.component';
 import { Body4Component } from './body4/body4.component';
+import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FooternavComponent,
-    NavbarComponent,
-    BodyComponent,
     SocialFooterComponent,
-    HomeLayoutComponent,
-    SecondLayoutComponent,
-    ThirdLayoutComponent,
     SecondLayoutSocialFooterComponent,
     LogInFormComponent,
+    HomeLayoutComponent,
     FirstLayoutComponent,
+    SecondLayoutComponent,
+    ThirdLayoutComponent,
     FourthLayoutComponent,
-    Body2Component,
+    NavbarComponent,
     Navbar2Component,
     Navbar3Component,
+    BodyComponent,
+    Body2Component,
     Body3Component,
     Body4Component,
-    UserInfoComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
