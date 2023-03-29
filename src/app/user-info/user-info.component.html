@@ -1,15 +1,15 @@
 <p *ngIf="myInfo == undefined"> Failed fetching user info </p>
 <div *ngIf="myInfo != undefined"> 
     <div class="container-fluid">
-        <div class="flex-row">
-            <div class="d-flex flex-column justify-content-between">
+        <div class="d-flex flex-row justify-content-between">
+            <div class="flex-column">
                 User: {{myInfo.FirstName}} {{myInfo.LastName}}
             </div>
             <div class="flex-column">
-                Mix Id:
+                Mix Id: <a href="mailto: {{myInfo.mix_id}}@mix.wvu.edu">{{myInfo.mix_id}}</a>
             </div>
             <div class="flex-column">
-                GitHub:
+                GitHub: <a href="{{myInfo.Github}}"> {{myInfo.Github}} </a>
             </div>
         </div>
     </div>
