@@ -22,6 +22,7 @@ import { Body4Component } from './body4/body4.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { CarouselBody3Component } from './carousel-body3/carousel-body3.component';
+import { VerticalCardComponent } from './vertical-card/vertical-card.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { CarouselBody3Component } from './carousel-body3/carousel-body3.componen
     Body4Component,
     UserInfoComponent,
     CarouselBody3Component,
+    VerticalCardComponent,
   ],
   imports: [
     BrowserModule,
