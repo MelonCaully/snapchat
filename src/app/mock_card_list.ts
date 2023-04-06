@@ -14,13 +14,13 @@ export const mock_card_list = [
     {
         img: "assets/Labtop Snap.png",
         title: "Desktop",
-        button: "Log in to Chat",
+        button: "Log in to chat",
         link: "SecondLayout"
     },
     {
         img: "",
         title: "Chat on the web!",
-        button: "Log in to Chat",
+        button: "Log in to chat",
         link: "SecondLayout"
     }
 ];

@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { CardDisplayModel } from '../card_display.model';
+import { Component, OnInit } from '@angular/core';
+import { CardDisplayModel } from '../card-display.model';
 import { mock_card_list } from '../mock_card_list';
 
 @Component({
@@ -7,7 +7,7 @@ import { mock_card_list } from '../mock_card_list';
   templateUrl: './body2.component.html',
   styleUrls: ['./body2.component.css']
 })
-export class Body2Component {
+export class Body2Component implements OnInit{
   cards: CardDisplayModel [] = [];
 
   constructor(){
@@ -15,5 +15,8 @@ export class Body2Component {
       console.log(card);
       this.cards.push(card);
     }
+  }
+  ngOnInit(): void {
+    throw new Error("Method not implemented");
   }
 }

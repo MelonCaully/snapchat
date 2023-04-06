@@ -10,9 +10,9 @@ export class VerticalCardComponent {
   @Input() title: string;
   @Input() button: string;
   @Input() link: string;
-  
+
   constructor(){
-    this.img = "Chat, Snap, and video call your friends from wherever you are.";
+    this.img = "";
     this.title = "Missing Title";
     this.button = "";
     this.link = "";

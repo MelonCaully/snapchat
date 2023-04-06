@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CardDisplayModel } from './card_display.model';
+import { CardDisplayModel } from './card-display.model';
 import { mock_card_list } from './mock_card_list';
 @Component({
   selector: 'app-root',
