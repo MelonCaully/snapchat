@@ -1,4 +1,4 @@
-export class CardDisplayModel {
+export class ProductModel {
     img: string;
     title: string;
     button: string;

@@ -1,15 +1,20 @@
-import { HttpClient } from "@angular/common/http"
-import { CardItemModel } from "./card-display.model"
+import { HttpClient } from "@angular/common/http";
+import { Injectable } from "@angular/core";
+import { ProductModel } from "./product.model";
 
-export class CardsService{
-    private baseUrl:string = "https://snapchat-app-c7b84-default-rtdb.firebaseio.com/"
-    private cardsEndPoint:string = "cards.json"
 
-    constructor(private http:HttpClient) {
+@Injectable(
+    {providedIn: 'root'}
+)
+export class ProductsService{
+    private baseUrl:string = "https://tutorial-db3ee-default-rtdb.firebaseio.com/";
+    private productsEndPoint = "Products.json";
+
+    constructor(private http:HttpClient){
 
     }
 
-    getCards() {
-        return this.http.get<CardItemModel []>(this.baseUrl + this.cardsEndPoint);
+    getProducts(){
+        return this.http.get<ProductModel []>(this.baseUrl + this.productsEndPoint);
     }
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CardDisplayModel } from '../card-display.model';
+import { ProductModel } from '../product.model';
 import { mock_card_list } from '../mock_card_list';
 
 @Component({
@@ -8,7 +8,7 @@ import { mock_card_list } from '../mock_card_list';
   styleUrls: ['./body2.component.css']
 })
 export class Body2Component implements OnInit{
-  cards: CardDisplayModel [] = [];
+  cards: ProductModel [] = [];
 
   constructor(){
     for(var card of mock_card_list){
