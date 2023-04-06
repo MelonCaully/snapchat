@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CardDisplayModel } from './card-display.model';
+import { ProductModel } from './product.model';
 import { mock_card_list } from './mock_card_list';
 @Component({
   selector: 'app-root',
@@ -8,7 +8,7 @@ import { mock_card_list } from './mock_card_list';
 })
 export class AppComponent {
   title = 'snapchat';
-  cards: CardDisplayModel [] = [];
+  cards: ProductModel [] = [];
 
   constructor(){
     for(var card of mock_card_list){
