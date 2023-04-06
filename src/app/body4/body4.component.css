@@ -1,3 +1,8 @@
 .scroll{
-    padding: 100px;
+    justify-content: center;
+    padding: 210px;
+    background-color: #fffc00;
+}
+.text{
+    width: 340px;
 }
