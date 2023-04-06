@@ -1,4 +1,4 @@
-export const mock_card_display = [
+export const mock_card_list = [
     {
         img: "assets/IOS.jpg",
         title: "IOS",
