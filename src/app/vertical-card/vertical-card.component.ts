@@ -6,12 +6,15 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./vertical-card.component.css']
 })
 export class VerticalCardComponent {
-  @Input()
-  img: string;
-  title: string;
-
+  @Input() img: string;
+  @Input() title: string;
+  @Input() button: string;
+  @Input() link: string;
+  
   constructor(){
-    this.img = "";
+    this.img = "Chat, Snap, and video call your friends from wherever you are.";
     this.title = "Missing Title";
+    this.button = "";
+    this.link = "";
   }
 }
