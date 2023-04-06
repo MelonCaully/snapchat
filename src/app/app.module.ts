@@ -21,7 +21,6 @@ import { Body3Component } from './body3/body3.component';
 import { Body4Component } from './body4/body4.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './user-info/user-info.component';
-import { VerticalCardComponent } from './vertical-card/vertical-card.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +42,6 @@ import { VerticalCardComponent } from './vertical-card/vertical-card.component';
     Body3Component,
     Body4Component,
     UserInfoComponent,
-    VerticalCardComponent
   ],
   imports: [
     BrowserModule,
