@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { ProductModel } from './body2/product.model';
-import { mock_card_list } from './body2/mock_card_list';
+import { ProductModel } from './product.model';
+import { mock_card_list } from './mock_card_list';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,12 +8,12 @@ import { mock_card_list } from './body2/mock_card_list';
 })
 export class AppComponent {
   title = 'snapchat';
-  cards: ProductModel [] = [];
+  products: ProductModel [] = [];
 
   constructor(){
-    for(var card of mock_card_list){
-      console.log(card);
-      this.cards.push(card);
+    for(var product of mock_card_list){
+      console.log(product);
+      this.products.push(product);
     }
   }
 }
