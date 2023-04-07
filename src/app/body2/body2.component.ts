@@ -9,19 +9,21 @@ import { ProductsService } from './products.service';
   styleUrls: ['./body2.component.css']
 })
 export class Body2Component implements OnInit{
-  cards: ProductModel [] = [];
+  products: ProductModel [] = [];
 
   constructor(private productsService:ProductsService){
     for(var card of mock_card_list){
       console.log(card);
-      this.cards.push(card);
+      this.products.push(card);
     }
   }
   ngOnInit(): void {
     this.productsService.getProducts().subscribe((data: ProductModel []) => {
       console.log("Fetching Products");
-      console.log(data);
+      for (var product of data) {
+        console.log(product);
+      }
     });
-    throw new Error("Method not implemented");
+    
   }
 }
