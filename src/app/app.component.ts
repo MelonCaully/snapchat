@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { ProductModel } from './product.model';
-import { mock_card_list } from './mock_card_list';
+import { ProductModel } from './body2/product.model';
+import { mock_card_list } from './body2/mock_card_list';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
