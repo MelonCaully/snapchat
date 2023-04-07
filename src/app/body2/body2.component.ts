@@ -1,24 +1,25 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ProductModel } from '../vertical-card/product.model';
+import { ProductsService } from '../vertical-card/products.service';
 
 @Component({
   selector: 'app-body2',
   templateUrl: './body2.component.html',
   styleUrls: ['./body2.component.css']
 })
-export class CardComponent implements OnInit {
-  @Input() img: string;
-  @Input() title: string;
-  @Input() button: string;
-  @Input() link: string;
+export class Body2Component implements OnInit{
+  products: ProductModel [] = [];
 
-  constructor() {
-    this.img ="No Image Found";
-    this.title = "No description found"
-    this.button = "No Button found";
-    this.link = "No Link found"
-   }
-
-  ngOnInit(): void {
+  constructor(private productsService:ProductsService){
+  
   }
-
+  ngOnInit(): void {
+    this.productsService.getProducts().subscribe((data: ProductModel []) => {
+      console.log("Fetching Products");
+      for (var product of data) {
+        console.log(product);
+        this.products.push(product);
+      }
+    });
+  }
 }
