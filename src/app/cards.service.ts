@@ -17,4 +17,8 @@ export class ProductsService{
     getProducts(){
         return this.http.get<ProductModel []>(this.baseUrl + this.productsEndPoint);
     }
+
+    //getProduct(index:number) {
+        //return this.http.get<ProductModel>(this.baseUrl + 'products' + '/' + index + '.json');
+    //}
 }
