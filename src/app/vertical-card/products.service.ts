@@ -8,8 +8,8 @@ import { AngularFireDatabase } from "@angular/fire/compat/database"
     {providedIn: 'root'}
 )
 export class ProductsService{
-    private baseUrl:string = "https://snapchat-app-c7b84-default-rtdb.firebaseio.com/";
-    private productsEndPoint = "Products.json";
+    //private baseUrl:string = "https://snapchat-app-c7b84-default-rtdb.firebaseio.com/";
+    //private productsEndPoint = "Products.json";
 
     constructor(private db: AngularFireDatabase){
 
