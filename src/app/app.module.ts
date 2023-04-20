@@ -24,7 +24,6 @@ import { UserInfoComponent } from './user-info/user-info.component';
 import { CarouselBody3Component } from './carousel-body3/carousel-body3.component';
 import { VerticalCardComponent } from './vertical-card/vertical-card.component';
 import { AddProductComponent } from './add-product/add-product.component';
-import { EnviromentsComponent } from './enviroments/enviroments.component';
 
 @NgModule({
   declarations: [
@@ -49,12 +48,12 @@ import { EnviromentsComponent } from './enviroments/enviroments.component';
     CarouselBody3Component,
     VerticalCardComponent,
     AddProductComponent,
-    EnviromentsComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

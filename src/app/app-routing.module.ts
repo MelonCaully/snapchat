@@ -27,7 +27,7 @@ const routes: Routes = [
   {
     path: 'FourthLayout',
     component: FourthLayoutComponent
-  }
+  },
   {
     path: "admin",
     component: AddProductComponent
