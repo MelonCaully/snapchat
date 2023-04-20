@@ -22,4 +22,8 @@ export class ProductsService{
     getProduct(index:number) {
         //return this.http.get<ProductModel>(this.baseUrl + 'products' + '/' + index + '.json');
     }
+
+    addProduct(product: ProductModel) {
+        this.db.list<ProductModel>("products").push(product);
+    }
 }
