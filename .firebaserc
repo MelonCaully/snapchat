@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "snapchat-app-c7b84"
+  },
+  "targets": {
+    "snapchat-app-c7b84": {
+      "hosting": {
+        "snapchat": [
+          "snapchat-app-c7b84"
+        ]
+      }
+    }
   }
 }

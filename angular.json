@@ -91,6 +91,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "snapchat:build:production",
+            "firebaseProject": "snapchat-app-c7b84",
+            "firebaseHostingSite": "snapchat-app-c7b84"
+          }
         }
       }
     }

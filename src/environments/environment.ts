@@ -1,4 +1,14 @@
 export const environment = {
+  firebase: {
+    projectId: 'snapchat-app-c7b84',
+    appId: '1:1098897196099:web:681af540d9558ae82d00f6',
+    databaseURL: 'https://snapchat-app-c7b84-default-rtdb.firebaseio.com',
+    storageBucket: 'snapchat-app-c7b84.appspot.com',
+    apiKey: 'AIzaSyAR32rjzbAsqgO3QQbH-90QT5PZ92EKrik',
+    authDomain: 'snapchat-app-c7b84.firebaseapp.com',
+    messagingSenderId: '1098897196099',
+    measurementId: 'G-Q6YCNKMR76',
+  },
     production: false
 }
 

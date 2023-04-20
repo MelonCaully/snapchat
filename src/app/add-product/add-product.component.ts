@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AddProductComponent {
 
+  constructor() {}
+    
+  ngOnInIt(): void {}
+
+  addProduct() {
+    console.log("You clicked add product");
+  }
+  
 }
