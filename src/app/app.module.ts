@@ -24,6 +24,10 @@ import { UserInfoComponent } from './user-info/user-info.component';
 import { CarouselBody3Component } from './carousel-body3/carousel-body3.component';
 import { VerticalCardComponent } from './vertical-card/vertical-card.component';
 import { AddProductComponent } from './add-product/add-product.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -53,7 +57,9 @@ import { AddProductComponent } from './add-product/add-product.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideDatabase(() => getDatabase()),
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
