@@ -17,8 +17,8 @@ const firebaseConfig = {
   projectId: "snapchat-app-c7b84",
   storageBucket: "snapchat-app-c7b84.appspot.com",
   messagingSenderId: "1098897196099",
-  appId: "1:1098897196099:web:119aa69b5a721f1a2d00f6",
-  measurementId: "G-W8VC5PR1TW"
+  appId: "1:1098897196099:web:681af540d9558ae82d00f6",
+  measurementId: "G-Q6YCNKMR76"
 };
 
 // Initialize Firebase
