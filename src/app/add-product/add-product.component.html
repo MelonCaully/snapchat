@@ -1,26 +1,26 @@
 <div class="container">
     <div class="row">
         <div class="col-12">
-            <form #postForm="ngForm" (ngSubmit)="addProduct()">
+            <form #postForm="ngForm" (ngSubmit)="addProduct(postForm.value)">
 
                 <div class="input-group">
                     <span class="input-group-text">Image Path</span>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" ngModel name="img">
                 </div>
 
                 <div class="input-group">
                     <span class="input-group-text">Title</span>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" ngModel name="title">
                 </div>
 
                 <div class="input-group">
                     <span class="input-group-text">Button Text</span>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" ngModel name="button">
                 </div>
 
                 <div class="input-group">
                     <span class="input-group-text">Link</span>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" ngModel name="link">
                 </div>
 
                 <button class="btn btn-primary" type="submit">

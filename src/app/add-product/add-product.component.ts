@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ProductModel } from '../vertical-card/product.model';
 
 @Component({
   selector: 'app-add-product',
@@ -11,8 +12,9 @@ export class AddProductComponent {
     
   ngOnInIt(): void {}
 
-  addProduct() {
-    console.log("You clicked add product");
+  addProduct(product:ProductModel) {
+    console.log("You clicked update card info");
+    console.log(product);
   }
   
 }
