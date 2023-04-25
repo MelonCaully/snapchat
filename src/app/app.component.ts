@@ -11,9 +11,9 @@ export class AppComponent {
   products: ProductModel [] = [];
 
   constructor(){
-    for(var product of mock_card_list){
-      console.log(product);
-      this.products.push(product);
-    }
+    //for(var product of mock_card_list){
+      //console.log(product);
+      //this.products.push(product);
+    //}
   }
 }
