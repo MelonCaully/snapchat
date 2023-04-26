@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ProductModel } from '../vertical-card/product.model';
 import { ProductsService } from '../vertical-card/products.service';
+//import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-add-product',
