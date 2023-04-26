@@ -16,7 +16,7 @@ export class ProductsService{
     }
 
     getProducts(){
-        return this.db.list<ProductModel>("Products").valueChanges();
+        return this.db.list<ProductModel>("products").valueChanges();
     }
 
     getProduct(index:number) {
@@ -24,6 +24,6 @@ export class ProductsService{
     }
 
     addProduct(product: ProductModel) {
-        this.db.list<ProductModel>("Products").push(product);
+        this.db.list<ProductModel>("products").push(product);
     }
 }
