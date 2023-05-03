@@ -37,7 +37,7 @@ export class CreateAccountComponent {
       }
       this.router.navigate(['']);
     } catch (error: any) {
-      alert('Error: ${error.message')
+      alert(`Error: ${error.message`)
     }
   }
     
