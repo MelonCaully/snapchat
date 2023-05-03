@@ -6,6 +6,7 @@ import { HomeLayoutComponent } from './Layout/home-layout/home-layout.component'
 import { SecondLayoutComponent } from './Layout/second-layout/second-layout.component';
 import { ThirdLayoutComponent } from './Layout/third-layout/third-layout.component';
 import { AddProductComponent } from './add-product/add-product.component';
+import { CreateAcountLayoutComponent } from './Layout/create-acount-layout/create-acount-layout.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: 'admin',
     component: AddProductComponent
+  },
+  {
+    path: 'create',
+    component: CreateAcountLayoutComponent
   }
 ];
 
