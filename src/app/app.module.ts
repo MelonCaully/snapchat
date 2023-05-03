@@ -29,6 +29,8 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { FormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire/compat';
+import { CreateAcountLayoutComponent } from './Layout/create-acount-layout/create-acount-layout.component';
+import { CreateAccountComponent } from './create-account/create-account.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +55,8 @@ import { AngularFireModule } from '@angular/fire/compat';
     CarouselBody3Component,
     VerticalCardComponent,
     AddProductComponent,
+    CreateAcountLayoutComponent,
+    CreateAccountComponent,
   ],
   imports: [
     BrowserModule,
