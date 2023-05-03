@@ -1,5 +1,5 @@
 <p>create-account works!</p>
-<section class="w-100 px-4 py-5 custom" style="border-radius: .5rem .5rem 0 0;">
+<section class="w-100 px-4 py-5 custom" (ngSubmit)="createAccount(email.value, username.value, password.value, confirmPassword.value)" style="border-radius: .5rem .5rem 0 0;">
     <div class="row d-flex justify-content-center">
       <div class="col-12 col-md-8 col-lg-6 col-xl-6">
         <div class="card bg-light text-black" style="border-radius: 1rem;">
@@ -7,24 +7,29 @@
 
             <div class="">
 
-              <h2 class="fw-bold mb-3 text-center">Log In</h2>
-              <p class="text-black-50 text-center">to continue to Ads Manager</p>
+              <h2 class="fw-bold mb-3 text-center">Sign up</h2>
+              <p class="text-black-50 text-center">to continue to Log in page</p>
 
               <div class="form-outline form-white mb-4">
-                <label class="form-label" for="typeEmailX">Username or Email</label>
-                <input type="email" id="typeEmailX" class="form-control form-control-lg">
+                <input class="form-control" type="email" id="floatingInput" placeholder="name@example.com" #email required>
+                <label for="floatingInput" class="ps-4">Email</label>
               </div>
               <div class="form-outline form-white mb-4">
-                <label class="form-label" for="typeEmailX" style="margin-left: 0px;">Password</label>
-                <input type="email" id="typeEmailX" class="form-control form-control-lg">
+                <input class="form-control" type="text" id="inputUsername" placeholder="Username" #username required>
+                <label for="inputUsername" class="ps-4">Username</label>
               </div>
-              <button href="#" class="btn btn-outline-light btn-lg bg-dark px-5" type="submit">Login</button>
+              <div class="form-outline form-white mb-4">
+                <input class="form-control" type="password" id="floatingPassword" placeholder="Password" #password required>
+                <label for="floatingPassword" class="ps-4">Password</label>
+              </div>
+              <div class="form-outline form-white mb-4">
+                <input class="form-control" type="password" id="floatingConfirmPassword" placeholder="Password" #confirmPassword required>
+                <label for="floatingConfirmPassword" class="ps-4">Re-Enter Password</label>
+              </div>
+              <button href="SecondLayout" class="btn create" type="submit">Sign up</button>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="texting">
-      <p class="mb-0 mt-4" style="text-align: center;">New to Snapchat? <a href="#!" class="text-black fw-bold">Sign Up</a></p>
     </div>
   </section>
