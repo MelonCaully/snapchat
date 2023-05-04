@@ -30,7 +30,7 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { FormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire/compat';
 import { CreateAcountLayoutComponent } from './Layout/create-acount-layout/create-acount-layout.component';
-import { CreateAccountComponent } from './create-account/create-account.component';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +56,7 @@ import { CreateAccountComponent } from './create-account/create-account.componen
     VerticalCardComponent,
     AddProductComponent,
     CreateAcountLayoutComponent,
-    CreateAccountComponent,
+    AuthComponent,
   ],
   imports: [
     BrowserModule,

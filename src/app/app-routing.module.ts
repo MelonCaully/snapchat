@@ -7,6 +7,7 @@ import { SecondLayoutComponent } from './Layout/second-layout/second-layout.comp
 import { ThirdLayoutComponent } from './Layout/third-layout/third-layout.component';
 import { AddProductComponent } from './add-product/add-product.component';
 import { CreateAcountLayoutComponent } from './Layout/create-acount-layout/create-acount-layout.component';
+import { AuthComponent } from './auth/auth.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: 'create',
     component: CreateAcountLayoutComponent
+  },
+  {
+    path: 'auth',
+    component: AuthComponent
   }
 ];
 
